@@ -13,8 +13,6 @@ This project implements a Circom circuit for verifying membership in a Merkle tr
   - [Generating Witness and Proof](#generating-witness-and-proof)
   - [Verifying the Proof](#verifying-the-proof)
 - [Integration with MPC Protocol](#integration-with-mpc-protocol)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -147,4 +145,4 @@ This circuit is integrated into the broader MPC protocol as follows:
 - **Verification**:
   Other banks use this circuit to verify that the shares they receive are correctly included in the Merkle tree, ensuring the shares' integrity without revealing the shares themselves.
 
-The circuit's use of **Poseidon** hashing ensures efficiency within the zero-knowledge proof system, aligning with the protocol's security and performance requirements.
+The circuit's use of **Poseidon** hashing ensures efficiency within the zero-knowledge proof system, (which will be updated to SHA256 for better alignment with other protocols) aligning with the protocol's security and performance requirements.
