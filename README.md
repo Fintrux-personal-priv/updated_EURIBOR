@@ -141,7 +141,7 @@ Prepare an input file `input_big.json`:
   "key": 123,
   "value": "...",         // 256-bit leaf value (as a decimal string)
   "root": "...",          // Merkle root (as a decimal string)
-  "siblings": ["...", ...] // Array of sibling values (decimal strings)
+  "siblings": ["...", "..."], // Array of sibling values (decimal strings)
 }
 ```
 
